@@ -6,6 +6,7 @@ module.exports = {
   'extends': [
     'plugin:react/recommended',
     'google',
+    'prettier',
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
@@ -21,6 +22,8 @@ module.exports = {
     'import',
   ],
   'rules': {
+    'semi': ['error', 'never'],
+    'require-jsdoc': ['off'],
     'import/order': ['error', {
       'newlines-between': 'always',
       'alphabetize': {
@@ -28,4 +31,4 @@ module.exports = {
       },
     }],
   },
-};
+}
