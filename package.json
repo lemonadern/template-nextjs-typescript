@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "yarn prettier --write src/**/*.{js,jsx,ts,tsx,css,md,mdx}"
   },
   "dependencies": {
     "next": "12.1.5",
