@@ -4,6 +4,7 @@
 - lint : ESLint
 - format : Prettier
 - husky
+- EditorConfig
 
 # Setting up your editor
 If you're a VSCode user, prease install recommended extensions.
