@@ -3,7 +3,7 @@
 - Next.js + TypeScript
 - lint : ESLint
 - format : Prettier
-- husky
+- husky, lint-staged
 - EditorConfig
 
 # Setting up your editor
