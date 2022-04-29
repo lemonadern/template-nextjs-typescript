@@ -22,7 +22,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'import'],
+  plugins: ['react', '@typescript-eslint', 'import', 'unused-imports'],
   rules: {
     semi: ['error', 'never'],
     'require-jsdoc': ['off'],
@@ -36,6 +36,18 @@ module.exports = {
         },
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
+    'import/no-duplicates': 'error',
+    'react/jsx-sort-props': 'error',
+    'react/jsx-curly-brace-presence': 'error',
+    'react/self-closing-comp': [
+      'error',
+      {
+        component: true,
+        html: false,
+      },
+    ],
+    'react/jsx-pascal-case': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   },
