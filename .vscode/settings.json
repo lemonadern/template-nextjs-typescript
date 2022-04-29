@@ -2,7 +2,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll": true
+    "source.fixAll": true,
+    "source.addMissingImports": true,
   },
   "editor.formatOnSave": true
 }
